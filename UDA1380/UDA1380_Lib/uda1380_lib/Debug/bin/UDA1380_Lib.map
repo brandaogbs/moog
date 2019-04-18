@@ -1,0 +1,1527 @@
+Archive member included because of file (symbol)
+
+..\..\..\libuda1380_lib.a(uda1380.o)
+                              ..\obj\main.o (UDA1380_StructInit)
+..\..\..\libuda1380_lib.a(queue.o)
+                              ..\..\..\libuda1380_lib.a(uda1380.o) (xQueueGenericCreate)
+..\..\..\libuda1380_lib.a(heap_4.o)
+                              ..\..\..\libuda1380_lib.a(queue.o) (pvPortMalloc)
+..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                              ..\..\..\libuda1380_lib.a(uda1380.o) (CPAL_I2C_Init)
+..\..\..\libuda1380_lib.a(tasks.o)
+                              ..\..\..\libuda1380_lib.a(uda1380.o) (xTaskGenericCreate)
+..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                              ..\..\..\libuda1380_lib.a(cpal_i2c.o) (CPAL_I2C_HAL_CLKInit)
+..\..\..\libuda1380_lib.a(list.o)
+                              ..\..\..\libuda1380_lib.a(queue.o) (vListInitialise)
+..\..\..\libuda1380_lib.a(port.o)
+                              ..\..\..\libuda1380_lib.a(tasks.o) (pxPortInitialiseStack)
+..\..\..\libuda1380_lib.a(cpal_hal.o)
+                              ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o) (CPAL_HAL_NVICInit)
+..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+                              ..\..\..\libuda1380_lib.a(cpal_i2c.o) (CPAL_TIMEOUT_UserCallback)
+..\..\..\libuda1380_lib.a(timers.o)
+                              ..\..\..\libuda1380_lib.a(tasks.o) (xTimerCreateTimerTask)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+                              ..\..\..\libuda1380_lib.a(uda1380.o) (roundf)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+                              ..\..\..\libuda1380_lib.a(tasks.o) (memcmp)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcpy.o)
+                              ..\..\..\libuda1380_lib.a(queue.o) (memcpy)
+c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+                              ..\..\..\libuda1380_lib.a(tasks.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+buf_mono            0x100             ..\obj\main.o
+CPAL_DMA_InitStructure
+                    0x3c              ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+wave_form           0x1               ..\obj\main.o
+xQueueRegistry      0x40              ..\..\..\libuda1380_lib.a(queue.o)
+I2C_InitStructure   0x10              ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+buf_out             0x1000            ..\obj\main.o
+CPAL_timeout_task_handle
+                    0x4               ..\..\..\libuda1380_lib.a(uda1380.o)
+buf_in              0x1000            ..\obj\main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\semihosting.o
+ .data          0x00000000        0x0 ..\obj\semihosting.o
+ .bss           0x00000000       0x14 ..\obj\semihosting.o
+ .text.SH_SendChar
+                0x00000000       0x38 ..\obj\semihosting.o
+ .text.SH_GetChar
+                0x00000000       0x30 ..\obj\semihosting.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_syscfg.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_syscfg.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x18 ..\obj\stm32f4xx_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000        0xc ..\obj\stm32f4xx_syscfg.o
+ .text.SYSCFG_ETH_MediaInterfaceConfig
+                0x00000000        0xc ..\obj\stm32f4xx_syscfg.o
+ .text.SYSCFG_CompensationCellCmd
+                0x00000000        0xc ..\obj\stm32f4xx_syscfg.o
+ .text.SYSCFG_GetCompensationCellStatus
+                0x00000000       0x18 ..\obj\stm32f4xx_syscfg.o
+ .text          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x34 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x10 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x28 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x10 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x30 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x1c ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x34 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x34 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x14 ..\obj\stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xc ..\obj\stm32f4xx_rcc.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x104 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x24 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000        0x8 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x10 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000        0x8 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000        0xc ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000        0x4 ..\obj\stm32f4xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000        0x8 ..\obj\stm32f4xx_gpio.o
+ .data          0x00000000        0x0 ..\obj\sh_cmd.o
+ .bss           0x00000000        0x0 ..\obj\sh_cmd.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xa0 ..\obj\system_stm32f4xx.o
+ .text          0x00000000        0x0 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .bss           0x00000000        0x4 ..\obj\syscalls.o
+ .text._sbrk    0x00000000       0x20 ..\obj\syscalls.o
+ .text.link     0x00000000        0x8 ..\obj\syscalls.o
+ .text._close   0x00000000        0x8 ..\obj\syscalls.o
+ .text._fstat   0x00000000        0xc ..\obj\syscalls.o
+ .text._isatty  0x00000000        0x4 ..\obj\syscalls.o
+ .text._lseek   0x00000000        0x4 ..\obj\syscalls.o
+ .text._read    0x00000000        0x4 ..\obj\syscalls.o
+ .text._write   0x00000000        0x4 ..\obj\syscalls.o
+ .text.abort    0x00000000        0x4 ..\obj\syscalls.o
+ .debug_info    0x00000000      0x3ed ..\obj\syscalls.o
+ .debug_abbrev  0x00000000       0xf1 ..\obj\syscalls.o
+ .debug_loc     0x00000000      0x113 ..\obj\syscalls.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\syscalls.o
+ .debug_ranges  0x00000000       0x50 ..\obj\syscalls.o
+ .debug_line    0x00000000      0x17c ..\obj\syscalls.o
+ .debug_str     0x00000000      0x34f ..\obj\syscalls.o
+ .comment       0x00000000       0x71 ..\obj\syscalls.o
+ .debug_frame   0x00000000       0xa0 ..\obj\syscalls.o
+ .ARM.attributes
+                0x00000000       0x39 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_dma.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_dma.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000       0x18 ..\obj\stm32f4xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000       0x18 ..\obj\stm32f4xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 ..\obj\stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000       0x18 ..\obj\stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000       0x18 ..\obj\stm32f4xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000        0xc ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000       0x10 ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000       0x10 ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000        0x8 ..\obj\stm32f4xx_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000       0x38 ..\obj\stm32f4xx_dma.o
+ .text.DMA_ClearFlag
+                0x00000000       0x34 ..\obj\stm32f4xx_dma.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_spi.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_spi.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_spi.o
+ .text.SPI_Init
+                0x00000000       0x4c ..\obj\stm32f4xx_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x18 ..\obj\stm32f4xx_spi.o
+ .text.SPI_Cmd  0x00000000       0x1c ..\obj\stm32f4xx_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x18 ..\obj\stm32f4xx_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x24 ..\obj\stm32f4xx_spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_spi.o
+ .text.I2S_FullDuplexConfig
+                0x00000000       0x4c ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000        0x8 ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_SendData
+                0x00000000        0x4 ..\obj\stm32f4xx_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x1c ..\obj\stm32f4xx_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000        0xc ..\obj\stm32f4xx_spi.o
+ .text.SPI_GetCRC
+                0x00000000       0x10 ..\obj\stm32f4xx_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000        0x8 ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x00000000       0x10 ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000        0x8 ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x34 ..\obj\stm32f4xx_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x10 ..\obj\stm32f4xx_spi.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_i2c.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_i2c.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x64 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_Cmd  0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_Send7bitAddress
+                0x00000000       0x14 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x14 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_SendData
+                0x00000000        0x4 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000        0x8 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_PECPositionConfig
+                0x00000000       0x20 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GetPEC
+                0x00000000        0x8 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x18 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0x18 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_CheckEvent
+                0x00000000       0x1c ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x10 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GetFlagStatus
+                0x00000000       0x38 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000        0x8 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x20 ..\obj\stm32f4xx_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000        0x8 ..\obj\stm32f4xx_i2c.o
+ .text          0x00000000        0x0 ..\obj\stm32f4xx_exti.o
+ .data          0x00000000        0x0 ..\obj\stm32f4xx_exti.o
+ .bss           0x00000000        0x0 ..\obj\stm32f4xx_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x1c ..\obj\stm32f4xx_exti.o
+ .text.EXTI_StructInit
+                0x00000000       0x10 ..\obj\stm32f4xx_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x10 ..\obj\stm32f4xx_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x14 ..\obj\stm32f4xx_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000        0xc ..\obj\stm32f4xx_exti.o
+ .text          0x00000000        0x0 ..\obj\misc.o
+ .data          0x00000000        0x0 ..\obj\misc.o
+ .bss           0x00000000        0x0 ..\obj\misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x14 ..\obj\misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x1c ..\obj\misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x20 ..\obj\misc.o
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.float_to_fixed_point
+                0x00000000       0x10 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.fixed_point_to_float
+                0x00000000        0xc ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_ReceiveSamples
+                0x00000000      0x160 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_ReceiveSamplesMono
+                0x00000000      0x11c ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_ReceiveSamplesFloat
+                0x00000000      0x214 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_ReceiveSamplesFloatMono
+                0x00000000      0x180 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_SendSamples
+                0x00000000      0x17c ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_SendSamplesMono
+                0x00000000      0x184 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_SendSamplesFloat
+                0x00000000      0x27c ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(queue.o)
+ .data          0x00000000        0x0 ..\..\..\libuda1380_lib.a(queue.o)
+ .bss           0x00000000        0x0 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueGenericReset
+                0x00000000       0x74 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x84 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueCreateMutex
+                0x00000000       0x50 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x34 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x3c ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueReceiveFromISR
+                0x00000000       0x84 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueuePeekFromISR
+                0x00000000       0x4c ..\..\..\libuda1380_lib.a(queue.o)
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x1c ..\..\..\libuda1380_lib.a(queue.o)
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x20 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x10 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.vQueueDelete
+                0x00000000       0x94 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.uxQueueGetQueueNumber
+                0x00000000        0x4 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.vQueueSetQueueNumber
+                0x00000000        0x4 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.ucQueueGetQueueType
+                0x00000000        0x8 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x18 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x18 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.vQueueUnregisterQueue
+                0x00000000       0x60 ..\..\..\libuda1380_lib.a(queue.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xc ..\..\..\libuda1380_lib.a(heap_4.o)
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000        0xc ..\..\..\libuda1380_lib.a(heap_4.o)
+ .text.vPortInitialiseBlocks
+                0x00000000        0x4 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .data          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .bss           0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .text.CPAL_I2C_Read
+                0x00000000      0x1a4 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .text.CPAL_I2C_Enable_DMA_IT
+                0x00000000       0x28 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskDelete
+                0x00000000       0x98 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.uxTaskPriorityGet
+                0x00000000       0x28 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskPrioritySet
+                0x00000000       0xbc ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.xTaskResumeFromISR
+                0x00000000       0xa0 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskEndScheduler
+                0x00000000       0x1c ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x1c ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskDelayUntil
+                0x00000000       0xb0 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.uxTaskGetSystemState
+                0x00000000      0x37c ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x98 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0x64 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.uxTaskGetTaskNumber
+                0x00000000        0x8 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskSetTaskNumber
+                0x00000000        0x8 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.uxTaskGetStackHighWaterMark
+                0x00000000       0x30 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x20 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .bss           0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ COMMON         0x00000000       0x3c ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(list.o)
+ .data          0x00000000        0x0 ..\..\..\libuda1380_lib.a(list.o)
+ .bss           0x00000000        0x0 ..\..\..\libuda1380_lib.a(list.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(port.o)
+ .text.vPortEndScheduler
+                0x00000000       0x18 ..\..\..\libuda1380_lib.a(port.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .data          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .bss           0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .data          0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .bss           0x00000000        0x0 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .text          0x00000000        0x0 ..\..\..\libuda1380_lib.a(timers.o)
+ .data          0x00000000        0x0 ..\..\..\libuda1380_lib.a(timers.o)
+ .text.xTimerCreate
+                0x00000000       0x90 ..\..\..\libuda1380_lib.a(timers.o)
+ .text.xTimerIsTimerActive
+                0x00000000       0x18 ..\..\..\libuda1380_lib.a(timers.o)
+ .text.pvTimerGetTimerID
+                0x00000000        0x4 ..\..\..\libuda1380_lib.a(timers.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00100000         xr
+ram              0x20000000         0x00020000         xrw
+ram1             0x10000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20020000                _eram = 0x20020000
+
+.text           0x08000000     0xb41c
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.SH_SendString
+                0x08000188       0x10 ..\obj\semihosting.o
+                0x08000188                SH_SendString
+ .text.SYSCFG_EXTILineConfig
+                0x08000198       0x34 ..\obj\stm32f4xx_syscfg.o
+                0x08000198                SYSCFG_EXTILineConfig
+ .text.Default_Handler
+                0x080001cc        0x4 ..\obj\startup_stm32f4xx.o
+                0x080001cc                RTC_Alarm_IRQHandler
+                0x080001cc                HASH_RNG_IRQHandler
+                0x080001cc                EXTI2_IRQHandler
+                0x080001cc                TIM8_CC_IRQHandler
+                0x080001cc                DebugMon_Handler
+                0x080001cc                TIM1_CC_IRQHandler
+                0x080001cc                DMA2_Stream5_IRQHandler
+                0x080001cc                DMA1_Stream5_IRQHandler
+                0x080001cc                PVD_IRQHandler
+                0x080001cc                SDIO_IRQHandler
+                0x080001cc                TAMP_STAMP_IRQHandler
+                0x080001cc                NMI_Handler
+                0x080001cc                CAN2_RX1_IRQHandler
+                0x080001cc                EXTI3_IRQHandler
+                0x080001cc                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080001cc                TIM1_UP_TIM10_IRQHandler
+                0x080001cc                TIM8_UP_TIM13_IRQHandler
+                0x080001cc                I2C3_ER_IRQHandler
+                0x080001cc                I2C2_EV_IRQHandler
+                0x080001cc                DMA1_Stream2_IRQHandler
+                0x080001cc                CAN1_RX0_IRQHandler
+                0x080001cc                FPU_IRQHandler
+                0x080001cc                OTG_HS_WKUP_IRQHandler
+                0x080001cc                UsageFault_Handler
+                0x080001cc                CAN2_SCE_IRQHandler
+                0x080001cc                DMA2_Stream2_IRQHandler
+                0x080001cc                SPI1_IRQHandler
+                0x080001cc                TIM6_DAC_IRQHandler
+                0x080001cc                TIM1_BRK_TIM9_IRQHandler
+                0x080001cc                DCMI_IRQHandler
+                0x080001cc                CAN2_RX0_IRQHandler
+                0x080001cc                DMA2_Stream3_IRQHandler
+                0x080001cc                USART6_IRQHandler
+                0x080001cc                USART3_IRQHandler
+                0x080001cc                CRYP_IRQHandler
+                0x080001cc                CAN1_RX1_IRQHandler
+                0x080001cc                UART5_IRQHandler
+                0x080001cc                DMA2_Stream0_IRQHandler
+                0x080001cc                TIM4_IRQHandler
+                0x080001cc                DMA1_Stream6_IRQHandler
+                0x080001cc                DMA1_Stream1_IRQHandler
+                0x080001cc                UART4_IRQHandler
+                0x080001cc                TIM3_IRQHandler
+                0x080001cc                RCC_IRQHandler
+                0x080001cc                TIM8_BRK_TIM12_IRQHandler
+                0x080001cc                EXTI15_10_IRQHandler
+                0x080001cc                ADC_IRQHandler
+                0x080001cc                DMA1_Stream7_IRQHandler
+                0x080001cc                TIM7_IRQHandler
+                0x080001cc                CAN2_TX_IRQHandler
+                0x080001cc                TIM5_IRQHandler
+                0x080001cc                DMA2_Stream7_IRQHandler
+                0x080001cc                I2C3_EV_IRQHandler
+                0x080001cc                EXTI9_5_IRQHandler
+                0x080001cc                RTC_WKUP_IRQHandler
+                0x080001cc                ETH_WKUP_IRQHandler
+                0x080001cc                SPI2_IRQHandler
+                0x080001cc                OTG_HS_EP1_IN_IRQHandler
+                0x080001cc                MemManage_Handler
+                0x080001cc                CAN1_TX_IRQHandler
+                0x080001cc                EXTI4_IRQHandler
+                0x080001cc                FSMC_IRQHandler
+                0x080001cc                ETH_IRQHandler
+                0x080001cc                OTG_HS_EP1_OUT_IRQHandler
+                0x080001cc                WWDG_IRQHandler
+                0x080001cc                TIM2_IRQHandler
+                0x080001cc                OTG_FS_WKUP_IRQHandler
+                0x080001cc                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080001cc                OTG_HS_IRQHandler
+                0x080001cc                EXTI1_IRQHandler
+                0x080001cc                USART2_IRQHandler
+                0x080001cc                I2C2_ER_IRQHandler
+                0x080001cc                DMA2_Stream1_IRQHandler
+                0x080001cc                CAN1_SCE_IRQHandler
+                0x080001cc                FLASH_IRQHandler
+                0x080001cc                DMA2_Stream4_IRQHandler
+                0x080001cc                BusFault_Handler
+                0x080001cc                USART1_IRQHandler
+                0x080001cc                OTG_FS_IRQHandler
+                0x080001cc                SPI3_IRQHandler
+                0x080001cc                DMA2_Stream6_IRQHandler
+                0x080001cc                DMA1_Stream3_IRQHandler
+ .text.Default_Reset_Handler
+                0x080001d0       0x48 ..\obj\startup_stm32f4xx.o
+                0x080001d0                Default_Reset_Handler
+                0x080001d0                Reset_Handler
+ .text.osc_1    0x08000218       0xbc ..\obj\main.o
+                0x08000218                osc_1
+ .text.processamento
+                0x080002d4       0x3c ..\obj\main.o
+                0x080002d4                processamento
+ .text.main     0x08000310       0x38 ..\obj\main.o
+                0x08000310                main
+ .text.RCC_PLLI2SConfig
+                0x08000348       0x14 ..\obj\stm32f4xx_rcc.o
+                0x08000348                RCC_PLLI2SConfig
+ .text.RCC_PLLI2SCmd
+                0x0800035c        0xc ..\obj\stm32f4xx_rcc.o
+                0x0800035c                RCC_PLLI2SCmd
+ .text.RCC_GetClocksFreq
+                0x08000368       0xb8 ..\obj\stm32f4xx_rcc.o
+                0x08000368                RCC_GetClocksFreq
+ .text.RCC_I2SCLKConfig
+                0x08000420        0xc ..\obj\stm32f4xx_rcc.o
+                0x08000420                RCC_I2SCLKConfig
+ .text.RCC_AHB1PeriphClockCmd
+                0x0800042c       0x1c ..\obj\stm32f4xx_rcc.o
+                0x0800042c                RCC_AHB1PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08000448       0x1c ..\obj\stm32f4xx_rcc.o
+                0x08000448                RCC_APB1PeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08000464       0x1c ..\obj\stm32f4xx_rcc.o
+                0x08000464                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x08000480       0x1c ..\obj\stm32f4xx_rcc.o
+                0x08000480                RCC_APB1PeriphResetCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x0800049c       0x1c ..\obj\stm32f4xx_rcc.o
+                0x0800049c                RCC_APB2PeriphResetCmd
+ .text.RCC_ClearFlag
+                0x080004b8       0x10 ..\obj\stm32f4xx_rcc.o
+                0x080004b8                RCC_ClearFlag
+ .text.GPIO_Init
+                0x080004c8       0x84 ..\obj\stm32f4xx_gpio.o
+                0x080004c8                GPIO_Init
+ .text.GPIO_StructInit
+                0x0800054c       0x14 ..\obj\stm32f4xx_gpio.o
+                0x0800054c                GPIO_StructInit
+ .text.GPIO_ReadInputDataBit
+                0x08000560       0x10 ..\obj\stm32f4xx_gpio.o
+                0x08000560                GPIO_ReadInputDataBit
+ .text.GPIO_SetBits
+                0x08000570        0x4 ..\obj\stm32f4xx_gpio.o
+                0x08000570                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x08000574        0x4 ..\obj\stm32f4xx_gpio.o
+                0x08000574                GPIO_ResetBits
+ .text.GPIO_PinAFConfig
+                0x08000578       0x30 ..\obj\stm32f4xx_gpio.o
+                0x08000578                GPIO_PinAFConfig
+ .text          0x080005a8       0x28 ..\obj\sh_cmd.o
+                0x080005a8                SH_DoCommand
+                0x080005ba                HardFault_Handler
+ .text.SetSysClock
+                0x080005d0       0xc4 ..\obj\system_stm32f4xx.o
+ .text.SystemInit
+                0x08000694       0x50 ..\obj\system_stm32f4xx.o
+                0x08000694                SystemInit
+ .text.DMA_DeInit
+                0x080006e4      0x154 ..\obj\stm32f4xx_dma.o
+                0x080006e4                DMA_DeInit
+ .text.DMA_Init
+                0x08000838       0x58 ..\obj\stm32f4xx_dma.o
+                0x08000838                DMA_Init
+ .text.DMA_StructInit
+                0x08000890       0x24 ..\obj\stm32f4xx_dma.o
+                0x08000890                DMA_StructInit
+ .text.DMA_Cmd  0x080008b4       0x18 ..\obj\stm32f4xx_dma.o
+                0x080008b4                DMA_Cmd
+ .text.DMA_GetCurrDataCounter
+                0x080008cc        0x8 ..\obj\stm32f4xx_dma.o
+                0x080008cc                DMA_GetCurrDataCounter
+ .text.DMA_ITConfig
+                0x080008d4       0x3c ..\obj\stm32f4xx_dma.o
+                0x080008d4                DMA_ITConfig
+ .text.DMA_GetITStatus
+                0x08000910       0x60 ..\obj\stm32f4xx_dma.o
+                0x08000910                DMA_GetITStatus
+ .text.DMA_ClearITPendingBit
+                0x08000970       0x34 ..\obj\stm32f4xx_dma.o
+                0x08000970                DMA_ClearITPendingBit
+ .text.SPI_I2S_DeInit
+                0x080009a4       0x64 ..\obj\stm32f4xx_spi.o
+                0x080009a4                SPI_I2S_DeInit
+ .text.I2S_Init
+                0x08000a08       0xe8 ..\obj\stm32f4xx_spi.o
+                0x08000a08                I2S_Init
+ .text.I2S_StructInit
+                0x08000af0       0x14 ..\obj\stm32f4xx_spi.o
+                0x08000af0                I2S_StructInit
+ .text.I2S_Cmd  0x08000b04       0x1c ..\obj\stm32f4xx_spi.o
+                0x08000b04                I2S_Cmd
+ .text.SPI_I2S_DMACmd
+                0x08000b20       0x18 ..\obj\stm32f4xx_spi.o
+                0x08000b20                SPI_I2S_DMACmd
+ .text.I2C_Init
+                0x08000b38       0xdc ..\obj\stm32f4xx_i2c.o
+                0x08000b38                I2C_Init
+ .text.EXTI_Init
+                0x08000c14       0x90 ..\obj\stm32f4xx_exti.o
+                0x08000c14                EXTI_Init
+ .text.EXTI_GetITStatus
+                0x08000ca4       0x20 ..\obj\stm32f4xx_exti.o
+                0x08000ca4                EXTI_GetITStatus
+ .text.EXTI_ClearITPendingBit
+                0x08000cc4        0xc ..\obj\stm32f4xx_exti.o
+                0x08000cc4                EXTI_ClearITPendingBit
+ .text.NVIC_PriorityGroupConfig
+                0x08000cd0       0x14 ..\obj\misc.o
+                0x08000cd0                NVIC_PriorityGroupConfig
+ .text.NVIC_Init
+                0x08000ce4       0x74 ..\obj\misc.o
+                0x08000ce4                NVIC_Init
+ .text.UDA1380_error_task
+                0x08000d58       0x80 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.Inicializacao_I2C
+                0x08000dd8       0x3c ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_Erro
+                0x08000e14       0x20 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.I2S_DMA_Rx_Config.isra.0
+                0x08000e34       0xa4 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.I2C_escrever_reg.constprop.3
+                0x08000ed8       0x44 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_task
+                0x08000f1c      0x650 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.UDA1380_button_task
+                0x0800156c       0xb0 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .text.erro_catastrofico
+                0x0800161c       0x68 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x0800161c                erro_catastrofico
+ .text.vApplicationStackOverflowHook
+                0x08001684        0xc ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x08001684                vApplicationStackOverflowHook
+ .text.vApplicationMallocFailedHook
+                0x08001690        0xc ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x08001690                vApplicationMallocFailedHook
+ .text.FreeRTOS_Init
+                0x0800169c       0x64 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x0800169c                FreeRTOS_Init
+ .text.CPAL_timeout_task
+                0x08001700       0x10 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x08001700                CPAL_timeout_task
+ .text.EXTI0_IRQHandler
+                0x08001710       0x28 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x08001710                EXTI0_IRQHandler
+ .text.DMA1_Stream0_IRQHandler
+                0x08001738       0xc4 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x08001738                DMA1_Stream0_IRQHandler
+ .text.DMA1_Stream4_IRQHandler
+                0x080017fc       0xac ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x080017fc                DMA1_Stream4_IRQHandler
+ .text.UDA1380_StructInit
+                0x080018a8       0x2c ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x080018a8                UDA1380_StructInit
+ .text.UDA1380_Init
+                0x080018d4       0x54 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x080018d4                UDA1380_Init
+ .text.UDA1380_SendSamplesFloatMono
+                0x08001928      0x1d0 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x08001928                UDA1380_SendSamplesFloatMono
+ .text.unlikely.prvCopyDataFromQueue
+                0x08001af8       0x28 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.prvUnlockQueue
+                0x08001b20       0x84 ..\..\..\libuda1380_lib.a(queue.o)
+ .text.xQueueGenericCreate
+                0x08001ba4       0x78 ..\..\..\libuda1380_lib.a(queue.o)
+                0x08001ba4                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x08001c1c      0x298 ..\..\..\libuda1380_lib.a(queue.o)
+                0x08001c1c                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x08001eb4      0x124 ..\..\..\libuda1380_lib.a(queue.o)
+                0x08001eb4                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x08001fd8      0x25c ..\..\..\libuda1380_lib.a(queue.o)
+                0x08001fd8                xQueueGenericReceive
+ .text.vQueueAddToRegistry
+                0x08002234       0x58 ..\..\..\libuda1380_lib.a(queue.o)
+                0x08002234                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x0800228c       0xb0 ..\..\..\libuda1380_lib.a(queue.o)
+                0x0800228c                vQueueWaitForMessageRestricted
+ .text.pvPortMalloc
+                0x0800233c      0x128 ..\..\..\libuda1380_lib.a(heap_4.o)
+                0x0800233c                pvPortMalloc
+ .text.vPortFree
+                0x08002464       0x8c ..\..\..\libuda1380_lib.a(heap_4.o)
+                0x08002464                vPortFree
+ .text.CPAL_I2C_Init
+                0x080024f0      0x118 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x080024f0                CPAL_I2C_Init
+ .text.CPAL_I2C_DeInit
+                0x08002608       0x70 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x08002608                CPAL_I2C_DeInit
+ .text.CPAL_I2C_StructInit
+                0x08002678       0x54 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x08002678                CPAL_I2C_StructInit
+ .text.CPAL_I2C_Write
+                0x080026cc       0xcc ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x080026cc                CPAL_I2C_Write
+ .text.CPAL_I2C_IsDeviceReady
+                0x08002798       0xfc ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x08002798                CPAL_I2C_IsDeviceReady
+ .text.CPAL_I2C_EV_IRQHandler
+                0x08002894      0x4b8 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x08002894                CPAL_I2C_EV_IRQHandler
+ .text.CPAL_I2C_ER_IRQHandler
+                0x08002d4c       0xf8 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x08002d4c                CPAL_I2C_ER_IRQHandler
+ .text.CPAL_I2C_TIMEOUT_Manager
+                0x08002e44       0x98 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x08002e44                CPAL_I2C_TIMEOUT_Manager
+ .text.unlikely.prvInitialiseTaskLists
+                0x08002edc       0x54 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.xTaskGenericCreate
+                0x08002f30      0x164 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08002f30                xTaskGenericCreate
+ .text.vTaskResume
+                0x08003094       0x78 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003094                vTaskResume
+ .text.vTaskStartScheduler
+                0x0800310c      0x128 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x0800310c                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x08003234       0x14 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003234                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x08003248       0x18 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003248                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x08003260      0x118 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003260                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x08003378       0xd4 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003378                xTaskResumeAll
+ .text.vTaskDelay
+                0x0800344c       0x80 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x0800344c                vTaskDelay
+ .text.prvIdleTask
+                0x080034cc       0x68 ..\..\..\libuda1380_lib.a(tasks.o)
+ .text.vTaskSwitchContext
+                0x08003534       0xc4 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003534                vTaskSwitchContext
+ .text.vTaskSuspend
+                0x080035f8       0xa4 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x080035f8                vTaskSuspend
+ .text.vTaskPlaceOnEventList
+                0x0800369c       0x80 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x0800369c                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x0800371c       0x6c ..\..\..\libuda1380_lib.a(tasks.o)
+                0x0800371c                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x08003788       0x6c ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003788                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x080037f4       0x20 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x080037f4                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x08003814       0x70 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003814                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x08003884       0x10 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003884                vTaskMissedYield
+ .text.xTaskGetCurrentTaskHandle
+                0x08003894        0xc ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003894                xTaskGetCurrentTaskHandle
+ .text.xTaskGetSchedulerState
+                0x080038a0       0x20 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x080038a0                xTaskGetSchedulerState
+ .text.vTaskPriorityInherit
+                0x080038c0       0x74 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x080038c0                vTaskPriorityInherit
+ .text.vTaskPriorityDisinherit
+                0x08003934       0x4c ..\..\..\libuda1380_lib.a(tasks.o)
+                0x08003934                vTaskPriorityDisinherit
+ .text.CPAL_I2C_HAL_CLKInit
+                0x08003980       0x28 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x08003980                CPAL_I2C_HAL_CLKInit
+ .text.CPAL_I2C_HAL_CLKDeInit
+                0x080039a8       0x28 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x080039a8                CPAL_I2C_HAL_CLKDeInit
+ .text.CPAL_I2C_HAL_GPIOInit
+                0x080039d0       0x8c ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x080039d0                CPAL_I2C_HAL_GPIOInit
+ .text.CPAL_I2C_HAL_GPIODeInit
+                0x08003a5c       0x4c ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x08003a5c                CPAL_I2C_HAL_GPIODeInit
+ .text.CPAL_I2C_HAL_ITInit
+                0x08003aa8       0x74 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x08003aa8                CPAL_I2C_HAL_ITInit
+ .text.CPAL_I2C_HAL_ITDeInit
+                0x08003b1c       0x44 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x08003b1c                CPAL_I2C_HAL_ITDeInit
+ .text.I2C1_EV_IRQHandler
+                0x08003b60        0xc ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x08003b60                I2C1_EV_IRQHandler
+ .text.I2C1_ER_IRQHandler
+                0x08003b6c       0x10 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x08003b6c                I2C1_ER_IRQHandler
+ .text.vListInitialise
+                0x08003b7c       0x18 ..\..\..\libuda1380_lib.a(list.o)
+                0x08003b7c                vListInitialise
+ .text.vListInitialiseItem
+                0x08003b94        0x8 ..\..\..\libuda1380_lib.a(list.o)
+                0x08003b94                vListInitialiseItem
+ .text.vListInsertEnd
+                0x08003b9c       0x1c ..\..\..\libuda1380_lib.a(list.o)
+                0x08003b9c                vListInsertEnd
+ .text.vListInsert
+                0x08003bb8       0x34 ..\..\..\libuda1380_lib.a(list.o)
+                0x08003bb8                vListInsert
+ .text.uxListRemove
+                0x08003bec       0x28 ..\..\..\libuda1380_lib.a(list.o)
+                0x08003bec                uxListRemove
+ .text.prvPortStartFirstTask
+                0x08003c14       0x1c ..\..\..\libuda1380_lib.a(port.o)
+ .text.vPortEnableVFP
+                0x08003c30       0x14 ..\..\..\libuda1380_lib.a(port.o)
+ .text.pxPortInitialiseStack
+                0x08003c44       0x2c ..\..\..\libuda1380_lib.a(port.o)
+                0x08003c44                pxPortInitialiseStack
+ .text.SVC_Handler
+                0x08003c70       0x20 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003c70                SVC_Handler
+ .text.vPortYield
+                0x08003c90       0x18 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003c90                vPortYield
+ .text.ulPortSetInterruptMask
+                0x08003ca8       0x10 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003ca8                ulPortSetInterruptMask
+ .text.prvTaskExitError
+                0x08003cb8       0x1c ..\..\..\libuda1380_lib.a(port.o)
+ .text.vPortEnterCritical
+                0x08003cd4       0x1c ..\..\..\libuda1380_lib.a(port.o)
+                0x08003cd4                vPortEnterCritical
+ .text.vPortClearInterruptMask
+                0x08003cf0        0x8 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003cf0                vPortClearInterruptMask
+ .text.vPortExitCritical
+                0x08003cf8       0x24 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003cf8                vPortExitCritical
+ .text.PendSV_Handler
+                0x08003d1c       0x58 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003d1c                PendSV_Handler
+ .text.SysTick_Handler
+                0x08003d74       0x24 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003d74                SysTick_Handler
+ .text.vPortSetupTimerInterrupt
+                0x08003d98       0x30 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003d98                vPortSetupTimerInterrupt
+ .text.xPortStartScheduler
+                0x08003dc8       0xa4 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003dc8                xPortStartScheduler
+ .text.vPortValidateInterruptPriority
+                0x08003e6c       0x40 ..\..\..\libuda1380_lib.a(port.o)
+                0x08003e6c                vPortValidateInterruptPriority
+ .text.CPAL_HAL_NVICInit
+                0x08003eac        0x8 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+                0x08003eac                CPAL_HAL_NVICInit
+ .text.CPAL_TIMEOUT_UserCallback
+                0x08003eb4        0x4 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+                0x08003eb4                CPAL_TIMEOUT_UserCallback
+ .text.xTimerCreateTimerTask
+                0x08003eb8       0x84 ..\..\..\libuda1380_lib.a(timers.o)
+                0x08003eb8                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x08003f3c       0x58 ..\..\..\libuda1380_lib.a(timers.o)
+                0x08003f3c                xTimerGenericCommand
+ .text.prvTimerTask
+                0x08003f94      0x2cc ..\..\..\libuda1380_lib.a(timers.o)
+ .text.roundf   0x08004260       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+                0x08004260                roundf
+ .text.memcmp   0x080042c0       0x64 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+                0x080042c0                memcmp
+ .text          0x08004324      0x134 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcpy.o)
+                0x08004324                memcpy
+ .text.memset   0x08004458       0x9c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+                0x08004458                memset
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x080044f4     0x6218 ..\obj\main.o
+                0x080044f4                squarewave
+                0x080054f4                trianglewave
+                0x080064f4                sawtoothwave
+                0x080074f4                distosinewave
+                0x080084f4                sinewave
+                0x080094f4                cosinewave
+                0x0800a4f4                Bf
+                0x0800a654                BLf
+                0x0800a658                B
+                0x0800a708                BL
+ .rodata        0x0800a70c      0x190 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .rodata.str1.4
+                0x0800a89c      0xa6b ..\..\..\libuda1380_lib.a(uda1380.o)
+                                0xa6c (size before relaxing)
+ *fill*         0x0800b307        0x1 
+ .rodata.str1.4
+                0x0800b308        0x4 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .rodata        0x0800b30c       0x14 ..\..\..\libuda1380_lib.a(tasks.o)
+ .rodata        0x0800b320       0xec ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x0800b320                CPAL_I2C_CLK
+                0x0800b32c                CPAL_I2C_SDA_GPIO_CLK
+                0x0800b338                CPAL_I2C_SCL_GPIO_CLK
+                0x0800b344                CPAL_I2C_AF
+                0x0800b350                CPAL_I2C_SCL_GPIO_PINSOURCE
+                0x0800b358                CPAL_I2C_SDA_GPIO_PINSOURCE
+                0x0800b360                CPAL_I2C_SCL_GPIO_PIN
+                0x0800b368                CPAL_I2C_SDA_GPIO_PIN
+                0x0800b370                CPAL_I2C_IT_EVT_IRQn
+                0x0800b374                I2C_IT_EVT_PREPRIO
+                0x0800b378                I2C_IT_EVT_SUBPRIO
+                0x0800b37c                CPAL_I2C_IT_ERR_IRQn
+                0x0800b380                I2C_IT_ERR_PREPRIO
+                0x0800b384                I2C_IT_ERR_SUBPRIO
+                0x0800b388                CPAL_I2C_DMA_RX_TE_FLAG
+                0x0800b394                CPAL_I2C_DMA_RX_HT_FLAG
+                0x0800b3a0                CPAL_I2C_DMA_RX_TC_FLAG
+                0x0800b3ac                CPAL_I2C_DMA_TX_TE_FLAG
+                0x0800b3b8                CPAL_I2C_DMA_TX_HT_FLAG
+                0x0800b3c4                CPAL_I2C_DMA_TX_TC_FLAG
+                0x0800b3d0                I2C_IT_DMARX_SUBPRIO
+                0x0800b3d4                I2C_IT_DMARX_PREPRIO
+                0x0800b3d8                I2C_IT_DMATX_SUBPRIO
+                0x0800b3dc                I2C_IT_DMATX_PREPRIO
+                0x0800b3e0                CPAL_I2C_DMA_RX_IRQn
+                0x0800b3e4                CPAL_I2C_DMA_TX_IRQn
+                0x0800b3e8                CPAL_I2C_DMA_CHANNEL
+                0x0800b3f4                CPAL_I2C_DMA_CLK
+                0x0800b400                CPAL_I2C_DR
+ .rodata.str1.4
+                0x0800b40c       0x10 ..\..\..\libuda1380_lib.a(timers.o)
+ *(.eh_fram e*)
+
+.glue_7         0x0800b41c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0800b41c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0800b41c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0800b41c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0800b41c        0x0
+ .iplt          0x00000000        0x0 ..\obj\semihosting.o
+
+.rel.dyn        0x0800b41c        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\semihosting.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0800b41c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0800b41c                __exidx_end = .
+                0x0800b41c                __etext = .
+                0x0800b41c                _sidata = __etext
+
+.data           0x20000000       0xb8 load address 0x0800b41c
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000       0x10 ..\obj\stm32f4xx_rcc.o
+ .data          0x20000010       0x14 ..\obj\system_stm32f4xx.o
+                0x20000010                SystemCoreClock
+                0x20000014                AHBPrescTable
+ .data          0x20000024       0x10 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .data          0x20000034        0x8 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .data          0x2000003c        0x4 ..\..\..\libuda1380_lib.a(tasks.o)
+ .data          0x20000040       0x74 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                0x20000040                CPAL_I2C_SCL_GPIO_PORT
+                0x2000004c                CPAL_I2C_SDA_GPIO_PORT
+                0x20000058                CPAL_I2C_DEVICE
+                0x20000064                I2C1_DevStructure
+                0x20000084                CPAL_I2C_DMA
+                0x20000090                CPAL_I2C_DMA_RX_Stream
+                0x2000009c                CPAL_I2C_DMA_TX_Stream
+                0x200000a8                I2C_DevStructures
+ .data          0x200000b4        0x4 ..\..\..\libuda1380_lib.a(port.o)
+                0x200000b8                . = ALIGN (0x4)
+                0x200000b8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x200000b8                PROVIDE (__preinit_array_end, .)
+                0x200000b8                . = ALIGN (0x4)
+                0x200000b8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x200000b8                PROVIDE (__init_array_end, .)
+                0x200000b8                . = ALIGN (0x4)
+                0x200000b8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x200000b8                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x200000b8                . = ALIGN (0x4)
+                0x200000b8                __data_end__ = .
+                0x200000b8                _edata = __data_end__
+
+.igot.plt       0x200000b8        0x0 load address 0x0800b4d4
+ .igot.plt      0x00000000        0x0 ..\obj\semihosting.o
+
+.bss            0x200000b8     0x342c load address 0x0800b4d4
+                0x200000b8                . = ALIGN (0x4)
+                0x200000b8                __bss_start__ = .
+                0x200000b8                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x200000b8        0x9 ..\obj\main.o
+                0x200000b8                pWavetable_osc1
+                0x200000bc                signal
+                0x200000c0                iBuff_mono
+ *fill*         0x200000c1        0x3 
+ .bss           0x200000c4       0x74 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x20000134                CPAL_timeout_init
+ .bss           0x20000138     0x1140 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .bss           0x20001278       0xd4 ..\..\..\libuda1380_lib.a(tasks.o)
+                0x20001324                pxCurrentTCB
+ .bss           0x2000134c        0x8 ..\..\..\libuda1380_lib.a(port.o)
+ .bss           0x20001354       0x38 ..\..\..\libuda1380_lib.a(timers.o)
+ *(COMMON)
+ COMMON         0x2000138c     0x2104 ..\obj\main.o
+                0x2000138c                buf_mono
+                0x2000148c                wave_form
+                0x20001490                buf_out
+                0x20002490                buf_in
+ COMMON         0x20003490        0x4 ..\..\..\libuda1380_lib.a(uda1380.o)
+                0x20003490                CPAL_timeout_task_handle
+ COMMON         0x20003494       0x40 ..\..\..\libuda1380_lib.a(queue.o)
+                0x20003494                xQueueRegistry
+ COMMON         0x200034d4       0x10 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                0x200034d4                I2C_InitStructure
+                0x200034e4                . = ALIGN (0x4)
+                0x200034e4                __bss_end__ = .
+                0x200034e4                _ebss = __bss_end__
+
+.heap           0x200034e4        0x0
+                0x200034e4                __end__ = .
+                0x200034e4                _end = __end__
+                0x200034e4                end = __end__
+ *(.heap*)
+                0x200034e4                __HeapLimit = .
+
+.co_stack       0x200034e4      0x804 load address 0x0800e900
+                0x200034e8                . = ALIGN (0x8)
+ *fill*         0x200034e4        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x200034e8      0x800 ..\obj\startup_stm32f4xx.o
+                0x200034e8                pulStack
+                0x20020000                __StackTop = (ORIGIN (ram) + 0x20000)
+                0x2001f7fc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20020000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\semihosting.o
+LOAD ..\obj\stm32f4xx_syscfg.o
+LOAD ..\obj\startup_stm32f4xx.o
+LOAD ..\obj\main.o
+LOAD ..\obj\stm32f4xx_rcc.o
+LOAD ..\obj\stm32f4xx_gpio.o
+LOAD ..\obj\sh_cmd.o
+LOAD ..\obj\system_stm32f4xx.o
+LOAD ..\obj\syscalls.o
+LOAD ..\obj\stm32f4xx_dma.o
+LOAD ..\obj\stm32f4xx_spi.o
+LOAD ..\obj\stm32f4xx_i2c.o
+LOAD ..\obj\stm32f4xx_exti.o
+LOAD ..\obj\misc.o
+LOAD ..\..\..\libuda1380_lib.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+END GROUP
+OUTPUT(UDA1380_Lib.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x101f9
+ .debug_info    0x00000000      0x1bb ..\obj\semihosting.o
+ .debug_info    0x000001bb      0x2b5 ..\obj\stm32f4xx_syscfg.o
+ .debug_info    0x00000470      0x11a ..\obj\startup_stm32f4xx.o
+ .debug_info    0x0000058a      0x575 ..\obj\main.o
+ .debug_info    0x00000aff      0xc86 ..\obj\stm32f4xx_rcc.o
+ .debug_info    0x00001785      0x7d4 ..\obj\stm32f4xx_gpio.o
+ .debug_info    0x00001f59       0xc5 ..\obj\sh_cmd.o
+ .debug_info    0x0000201e      0x5a5 ..\obj\system_stm32f4xx.o
+ .debug_info    0x000025c3      0x731 ..\obj\stm32f4xx_dma.o
+ .debug_info    0x00002cf4      0xbcc ..\obj\stm32f4xx_spi.o
+ .debug_info    0x000038c0      0xbc1 ..\obj\stm32f4xx_i2c.o
+ .debug_info    0x00004481      0x34a ..\obj\stm32f4xx_exti.o
+ .debug_info    0x000047cb      0x543 ..\obj\misc.o
+ .debug_info    0x00004d0e     0x3712 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_info    0x00008420     0x19b4 ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_info    0x00009dd4      0x422 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_info    0x0000a1f6      0xbed ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_info    0x0000ade3     0x2516 ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_info    0x0000d2f9     0x11e0 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_info    0x0000e4d9      0x294 ..\..\..\libuda1380_lib.a(list.o)
+ .debug_info    0x0000e76d      0x3e9 ..\..\..\libuda1380_lib.a(port.o)
+ .debug_info    0x0000eb56       0xe7 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .debug_info    0x0000ec3d      0x332 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_info    0x0000ef6f     0x128a ..\..\..\libuda1380_lib.a(timers.o)
+
+.debug_abbrev   0x00000000     0x2c34
+ .debug_abbrev  0x00000000       0xde ..\obj\semihosting.o
+ .debug_abbrev  0x000000de      0x164 ..\obj\stm32f4xx_syscfg.o
+ .debug_abbrev  0x00000242       0xea ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x0000032c      0x1b1 ..\obj\main.o
+ .debug_abbrev  0x000004dd      0x209 ..\obj\stm32f4xx_rcc.o
+ .debug_abbrev  0x000006e6      0x1e3 ..\obj\stm32f4xx_gpio.o
+ .debug_abbrev  0x000008c9       0x14 ..\obj\sh_cmd.o
+ .debug_abbrev  0x000008dd      0x152 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x00000a2f      0x173 ..\obj\stm32f4xx_dma.o
+ .debug_abbrev  0x00000ba2      0x1c5 ..\obj\stm32f4xx_spi.o
+ .debug_abbrev  0x00000d67      0x1cf ..\obj\stm32f4xx_i2c.o
+ .debug_abbrev  0x00000f36      0x1c3 ..\obj\stm32f4xx_exti.o
+ .debug_abbrev  0x000010f9      0x154 ..\obj\misc.o
+ .debug_abbrev  0x0000124d      0x422 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_abbrev  0x0000166f      0x35f ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_abbrev  0x000019ce      0x244 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_abbrev  0x00001c12      0x2cf ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_abbrev  0x00001ee1      0x3fd ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_abbrev  0x000022de      0x242 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_abbrev  0x00002520       0xda ..\..\..\libuda1380_lib.a(list.o)
+ .debug_abbrev  0x000025fa      0x1ed ..\..\..\libuda1380_lib.a(port.o)
+ .debug_abbrev  0x000027e7       0x99 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .debug_abbrev  0x00002880       0xb3 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_abbrev  0x00002933      0x301 ..\..\..\libuda1380_lib.a(timers.o)
+
+.debug_loc      0x00000000     0x8a37
+ .debug_loc     0x00000000       0x4d ..\obj\semihosting.o
+ .debug_loc     0x0000004d       0x8f ..\obj\stm32f4xx_syscfg.o
+ .debug_loc     0x000000dc       0x40 ..\obj\startup_stm32f4xx.o
+ .debug_loc     0x0000011c      0x9e8 ..\obj\stm32f4xx_rcc.o
+ .debug_loc     0x00000b04      0x32d ..\obj\stm32f4xx_gpio.o
+ .debug_loc     0x00000e31      0x137 ..\obj\system_stm32f4xx.o
+ .debug_loc     0x00000f68      0x3dc ..\obj\stm32f4xx_dma.o
+ .debug_loc     0x00001344      0x6c4 ..\obj\stm32f4xx_spi.o
+ .debug_loc     0x00001a08      0x660 ..\obj\stm32f4xx_i2c.o
+ .debug_loc     0x00002068      0x164 ..\obj\stm32f4xx_exti.o
+ .debug_loc     0x000021cc      0x199 ..\obj\misc.o
+ .debug_loc     0x00002365     0x19e0 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_loc     0x00003d45     0x163d ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_loc     0x00005382      0x463 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_loc     0x000057e5      0x5aa ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_loc     0x00005d8f     0x1edf ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_loc     0x00007c6e      0x1a2 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_loc     0x00007e10       0x69 ..\..\..\libuda1380_lib.a(list.o)
+ .debug_loc     0x00007e79       0xd0 ..\..\..\libuda1380_lib.a(port.o)
+ .debug_loc     0x00007f49       0x21 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_loc     0x00007f6a      0xacd ..\..\..\libuda1380_lib.a(timers.o)
+
+.debug_aranges  0x00000000      0xbd8
+ .debug_aranges
+                0x00000000       0x30 ..\obj\semihosting.o
+ .debug_aranges
+                0x00000030       0x48 ..\obj\stm32f4xx_syscfg.o
+ .debug_aranges
+                0x00000078       0x28 ..\obj\startup_stm32f4xx.o
+ .debug_aranges
+                0x000000a0       0x30 ..\obj\main.o
+ .debug_aranges
+                0x000000d0      0x178 ..\obj\stm32f4xx_rcc.o
+ .debug_aranges
+                0x00000248       0x88 ..\obj\stm32f4xx_gpio.o
+ .debug_aranges
+                0x000002d0       0x20 ..\obj\sh_cmd.o
+ .debug_aranges
+                0x000002f0       0x30 ..\obj\system_stm32f4xx.o
+ .debug_aranges
+                0x00000320       0xb0 ..\obj\stm32f4xx_dma.o
+ .debug_aranges
+                0x000003d0       0xe0 ..\obj\stm32f4xx_spi.o
+ .debug_aranges
+                0x000004b0      0x120 ..\obj\stm32f4xx_i2c.o
+ .debug_aranges
+                0x000005d0       0x58 ..\obj\stm32f4xx_exti.o
+ .debug_aranges
+                0x00000628       0x40 ..\obj\misc.o
+ .debug_aranges
+                0x00000668       0xf0 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_aranges
+                0x00000758       0xe0 ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_aranges
+                0x00000838       0x40 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_aranges
+                0x00000878       0x68 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_aranges
+                0x000008e0      0x140 ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_aranges
+                0x00000a20       0x58 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_aranges
+                0x00000a78       0x40 ..\..\..\libuda1380_lib.a(list.o)
+ .debug_aranges
+                0x00000ab8       0x98 ..\..\..\libuda1380_lib.a(port.o)
+ .debug_aranges
+                0x00000b50       0x20 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .debug_aranges
+                0x00000b70       0x20 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_aranges
+                0x00000b90       0x48 ..\..\..\libuda1380_lib.a(timers.o)
+
+.debug_ranges   0x00000000     0x18c0
+ .debug_ranges  0x00000000       0x20 ..\obj\semihosting.o
+ .debug_ranges  0x00000020       0x38 ..\obj\stm32f4xx_syscfg.o
+ .debug_ranges  0x00000058       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000070       0x20 ..\obj\main.o
+ .debug_ranges  0x00000090      0x168 ..\obj\stm32f4xx_rcc.o
+ .debug_ranges  0x000001f8       0x78 ..\obj\stm32f4xx_gpio.o
+ .debug_ranges  0x00000270       0x20 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x00000290       0xa0 ..\obj\stm32f4xx_dma.o
+ .debug_ranges  0x00000330       0xd0 ..\obj\stm32f4xx_spi.o
+ .debug_ranges  0x00000400      0x110 ..\obj\stm32f4xx_i2c.o
+ .debug_ranges  0x00000510       0x48 ..\obj\stm32f4xx_exti.o
+ .debug_ranges  0x00000558       0x30 ..\obj\misc.o
+ .debug_ranges  0x00000588      0x5d0 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_ranges  0x00000b58      0x1c0 ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_ranges  0x00000d18       0x68 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_ranges  0x00000d80      0x158 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_ranges  0x00000ed8      0x6a0 ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_ranges  0x00001578       0x48 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_ranges  0x000015c0       0x30 ..\..\..\libuda1380_lib.a(list.o)
+ .debug_ranges  0x000015f0       0xb8 ..\..\..\libuda1380_lib.a(port.o)
+ .debug_ranges  0x000016a8       0x10 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .debug_ranges  0x000016b8       0x10 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_ranges  0x000016c8      0x1f8 ..\..\..\libuda1380_lib.a(timers.o)
+
+.debug_line     0x00000000     0x6b0e
+ .debug_line    0x00000000       0xc9 ..\obj\semihosting.o
+ .debug_line    0x000000c9      0x2b3 ..\obj\stm32f4xx_syscfg.o
+ .debug_line    0x0000037c       0xb3 ..\obj\startup_stm32f4xx.o
+ .debug_line    0x0000042f      0x342 ..\obj\main.o
+ .debug_line    0x00000771      0x5b9 ..\obj\stm32f4xx_rcc.o
+ .debug_line    0x00000d2a      0x39a ..\obj\stm32f4xx_gpio.o
+ .debug_line    0x000010c4       0x93 ..\obj\sh_cmd.o
+ .debug_line    0x00001157      0x21b ..\obj\system_stm32f4xx.o
+ .debug_line    0x00001372      0x421 ..\obj\stm32f4xx_dma.o
+ .debug_line    0x00001793      0x492 ..\obj\stm32f4xx_spi.o
+ .debug_line    0x00001c25      0x509 ..\obj\stm32f4xx_i2c.o
+ .debug_line    0x0000212e      0x2f7 ..\obj\stm32f4xx_exti.o
+ .debug_line    0x00002425      0x29d ..\obj\misc.o
+ .debug_line    0x000026c2     0x126b ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_line    0x0000392d      0x863 ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_line    0x00004190      0x2f4 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_line    0x00004484      0x87f ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_line    0x00004d03      0xc56 ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_line    0x00005959      0x407 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_line    0x00005d60      0x221 ..\..\..\libuda1380_lib.a(list.o)
+ .debug_line    0x00005f81      0x355 ..\..\..\libuda1380_lib.a(port.o)
+ .debug_line    0x000062d6      0x1db ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .debug_line    0x000064b1      0x250 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_line    0x00006701      0x40d ..\..\..\libuda1380_lib.a(timers.o)
+
+.debug_str      0x00000000     0x50c6
+ .debug_str     0x00000000      0x1c6 ..\obj\semihosting.o
+                                0x1ff (size before relaxing)
+ .debug_str     0x000001c6      0x1e9 ..\obj\stm32f4xx_syscfg.o
+                                0x373 (size before relaxing)
+ .debug_str     0x000003af       0xd1 ..\obj\startup_stm32f4xx.o
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000480      0x57f ..\obj\main.o
+                                0x765 (size before relaxing)
+ .debug_str     0x000009ff      0x676 ..\obj\stm32f4xx_rcc.o
+                                0x8b8 (size before relaxing)
+ .debug_str     0x00001075      0x333 ..\obj\stm32f4xx_gpio.o
+                                0x532 (size before relaxing)
+ .debug_str     0x000013a8      0x11e ..\obj\system_stm32f4xx.o
+                                0x412 (size before relaxing)
+ .debug_str     0x000014c6      0x3a1 ..\obj\stm32f4xx_dma.o
+                                0x5aa (size before relaxing)
+ .debug_str     0x00001867      0x3cb ..\obj\stm32f4xx_spi.o
+                                0x720 (size before relaxing)
+ .debug_str     0x00001c32      0x3b7 ..\obj\stm32f4xx_i2c.o
+                                0x6f6 (size before relaxing)
+ .debug_str     0x00001fe9      0x1de ..\obj\stm32f4xx_exti.o
+                                0x3c1 (size before relaxing)
+ .debug_str     0x000021c7      0x1e3 ..\obj\misc.o
+                                0x436 (size before relaxing)
+ .debug_str     0x000023aa      0xf3f ..\..\..\libuda1380_lib.a(uda1380.o)
+                               0x1c0b (size before relaxing)
+ .debug_str     0x000032e9      0x6f2 ..\..\..\libuda1380_lib.a(queue.o)
+                                0x95a (size before relaxing)
+ .debug_str     0x000039db      0x1fe ..\..\..\libuda1380_lib.a(heap_4.o)
+                                0x415 (size before relaxing)
+ .debug_str     0x00003bd9      0x288 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+                                0x8ec (size before relaxing)
+ .debug_str     0x00003e61      0x838 ..\..\..\libuda1380_lib.a(tasks.o)
+                                0xdc6 (size before relaxing)
+ .debug_str     0x00004699      0x38a ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+                               0x12f5 (size before relaxing)
+ .debug_str     0x00004a23       0x8a ..\..\..\libuda1380_lib.a(list.o)
+                                0x308 (size before relaxing)
+ .debug_str     0x00004aad      0x1a3 ..\..\..\libuda1380_lib.a(port.o)
+                                0x45e (size before relaxing)
+ .debug_str     0x00004c50       0x54 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+                                0x213 (size before relaxing)
+ .debug_str     0x00004ca4       0x66 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+                                0x525 (size before relaxing)
+ .debug_str     0x00004d0a      0x3bc ..\..\..\libuda1380_lib.a(timers.o)
+                                0x896 (size before relaxing)
+
+.comment        0x00000000       0xe0
+ .comment       0x00000000       0x70 ..\obj\semihosting.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_syscfg.o
+ .comment       0x00000000       0x71 ..\obj\startup_stm32f4xx.o
+ .comment       0x00000000       0x71 ..\obj\main.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_rcc.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_gpio.o
+ .comment       0x00000000       0x71 ..\obj\system_stm32f4xx.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_dma.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_spi.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_i2c.o
+ .comment       0x00000000       0x71 ..\obj\stm32f4xx_exti.o
+ .comment       0x00000000       0x71 ..\obj\misc.o
+ .comment       0x00000070       0x70 ..\..\..\libuda1380_lib.a(uda1380.o)
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(queue.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(tasks.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(list.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(port.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .comment       0x00000000       0x71 ..\..\..\libuda1380_lib.a(timers.o)
+
+.ARM.attributes
+                0x00000000       0x37
+ .ARM.attributes
+                0x00000000       0x39 ..\obj\semihosting.o
+ .ARM.attributes
+                0x00000039       0x39 ..\obj\stm32f4xx_syscfg.o
+ .ARM.attributes
+                0x00000072       0x39 ..\obj\startup_stm32f4xx.o
+ .ARM.attributes
+                0x000000ab       0x39 ..\obj\main.o
+ .ARM.attributes
+                0x000000e4       0x39 ..\obj\stm32f4xx_rcc.o
+ .ARM.attributes
+                0x0000011d       0x39 ..\obj\stm32f4xx_gpio.o
+ .ARM.attributes
+                0x00000156       0x25 ..\obj\sh_cmd.o
+ .ARM.attributes
+                0x0000017b       0x39 ..\obj\system_stm32f4xx.o
+ .ARM.attributes
+                0x000001b4       0x39 ..\obj\stm32f4xx_dma.o
+ .ARM.attributes
+                0x000001ed       0x39 ..\obj\stm32f4xx_spi.o
+ .ARM.attributes
+                0x00000226       0x39 ..\obj\stm32f4xx_i2c.o
+ .ARM.attributes
+                0x0000025f       0x39 ..\obj\stm32f4xx_exti.o
+ .ARM.attributes
+                0x00000298       0x39 ..\obj\misc.o
+ .ARM.attributes
+                0x000002d1       0x39 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .ARM.attributes
+                0x0000030a       0x39 ..\..\..\libuda1380_lib.a(queue.o)
+ .ARM.attributes
+                0x00000343       0x39 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .ARM.attributes
+                0x0000037c       0x39 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .ARM.attributes
+                0x000003b5       0x39 ..\..\..\libuda1380_lib.a(tasks.o)
+ .ARM.attributes
+                0x000003ee       0x39 ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .ARM.attributes
+                0x00000427       0x39 ..\..\..\libuda1380_lib.a(list.o)
+ .ARM.attributes
+                0x00000460       0x39 ..\..\..\libuda1380_lib.a(port.o)
+ .ARM.attributes
+                0x00000499       0x39 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .ARM.attributes
+                0x000004d2       0x39 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .ARM.attributes
+                0x0000050b       0x39 ..\..\..\libuda1380_lib.a(timers.o)
+ .ARM.attributes
+                0x00000544       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+ .ARM.attributes
+                0x00000578       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x000005ac       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000005cc       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)
+
+.debug_frame    0x00000000     0x1c18
+ .debug_frame   0x00000000       0x5c ..\obj\semihosting.o
+ .debug_frame   0x0000005c       0x84 ..\obj\stm32f4xx_syscfg.o
+ .debug_frame   0x000000e0       0x38 ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x00000118       0x50 ..\obj\main.o
+ .debug_frame   0x00000168      0x2e8 ..\obj\stm32f4xx_rcc.o
+ .debug_frame   0x00000450      0x11c ..\obj\stm32f4xx_gpio.o
+ .debug_frame   0x0000056c       0x50 ..\obj\system_stm32f4xx.o
+ .debug_frame   0x000005bc      0x158 ..\obj\stm32f4xx_dma.o
+ .debug_frame   0x00000714      0x1e4 ..\obj\stm32f4xx_spi.o
+ .debug_frame   0x000008f8      0x24c ..\obj\stm32f4xx_i2c.o
+ .debug_frame   0x00000b44       0xa4 ..\obj\stm32f4xx_exti.o
+ .debug_frame   0x00000be8       0x74 ..\obj\misc.o
+ .debug_frame   0x00000c5c      0x344 ..\..\..\libuda1380_lib.a(uda1380.o)
+ .debug_frame   0x00000fa0      0x2a0 ..\..\..\libuda1380_lib.a(queue.o)
+ .debug_frame   0x00001240       0x80 ..\..\..\libuda1380_lib.a(heap_4.o)
+ .debug_frame   0x000012c0      0x118 ..\..\..\libuda1380_lib.a(cpal_i2c.o)
+ .debug_frame   0x000013d8      0x3d8 ..\..\..\libuda1380_lib.a(tasks.o)
+ .debug_frame   0x000017b0       0xec ..\..\..\libuda1380_lib.a(cpal_i2c_hal_stm32f4xx.o)
+ .debug_frame   0x0000189c       0x78 ..\..\..\libuda1380_lib.a(list.o)
+ .debug_frame   0x00001914      0x15c ..\..\..\libuda1380_lib.a(port.o)
+ .debug_frame   0x00001a70       0x20 ..\..\..\libuda1380_lib.a(cpal_hal.o)
+ .debug_frame   0x00001a90       0x20 ..\..\..\libuda1380_lib.a(cpal_usercallback_template.o)
+ .debug_frame   0x00001ab0       0xc4 ..\..\..\libuda1380_lib.a(timers.o)
+ .debug_frame   0x00001b74       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a(lib_a-sf_round.o)
+ .debug_frame   0x00001bac       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memcmp.o)
+ .debug_frame   0x00001be4       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg.a(lib_a-memset.o)

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 5.1.0 mingw32 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -Og -fno-builtin-printf -fsingle-precision-constant -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000 -DARM_MATH_CM4 -D__FPU_PRESENT -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\CMSIS_DSP\include -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\UDA1380 -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\cmsis_lib -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\cmsis_lib\include -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\cmsis -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\semihosting -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\cmsis_boot -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380 -I..\..\..\..\..\Users\brandaogbs\Desktop\MiniMoog\UDA1380\UDA1380_Lib\CMSIS_DSP">
+      <target file="syscalls.o" lastModified="15a518f9983">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1483e7e55e0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15a518f980b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1483e7f30a0"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="15a518f9a52">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="148f209c680"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15a518f98c2">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="149445c3d00"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15a518f938b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1483e7f4fe0"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="15a518f9c46">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1483e7f30a0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="15a518f930f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="148f20a0cd0"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="15a518f9ced">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="148f20941b0"/>
+      </target>
+      <target file="main.o" lastModified="15a51dd4d2e">
+         <source file="..\..\..\main.c" lastModified="15a51dd3593"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="15a518f981a">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="1483e7e3e70"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15a518f9b54">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="148f2098800"/>
+      </target>
+      <target file="semihosting.o" lastModified="15a518f925e">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="1483e7e4640"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15a518f9734">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="148f208fb60"/>
+      </target>
+      <target file="misc.o" lastModified="15a518f9d9a">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="148f209f560"/>
+      </target>
+   </processor>
+</history>
